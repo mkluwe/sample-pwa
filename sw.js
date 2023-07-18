@@ -5,8 +5,8 @@ self.addEventListener('install', event => {
     const cache = await caches.open(CACHE_NAME);
     cache.addAll([
       '/sample-pwa/',
-      '/sample-pwa/converter.js',
-      '/sample-pwa/converter.css'
+      '/sample-pwa/app.js',
+      '/sample-pwa/app.css'
     ]);
   })());
 });
